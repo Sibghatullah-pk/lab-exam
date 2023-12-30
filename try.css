@@ -1,0 +1,200 @@
+.container2 {
+    background-color: rgb(248, 244, 244);
+    width: 85vw;
+    margin-left: 4VW;
+
+    min-height: 80vh;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.para2 {
+    width: 100%;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+.para2 h1 {
+    padding-top: 20px;
+}
+
+.para2 p {
+    margin-top: 2vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2 img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border: 1px dotted black;
+    z-index: 1;
+}
+
+.text-container {
+    background-color: rgb(240, 241, 241);
+    background: white;
+    border: 1px dotted black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.pnn{
+    width: 45%;
+    height: 49vh;
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}
+.pnn img{
+    width: 100%;
+    height: 34vh;
+  
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}
+.pnn p{
+  
+    width: 100%;
+   margin-top: -1vh;
+color: black;
+}
+.pnnn
+{
+    width: 20%;
+    height: 48vh;
+    margin-left: -2vw;
+ margin-top: 2vh;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}.pn {
+margin-left: 2vw;
+    width: 22%;
+    height: 48vh;
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}
+.pnnn img{ 
+    height: 35vh;
+}.pn img{
+    height: 35vh;
+}
+.gnn{
+    margin-top: 24vh;
+    width: 45%;
+    height: 20vh;
+margin-left: vw;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}
+.gnn img{
+    margin-top: -19vh;
+    width: 100%;
+    height: 25vh;
+
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+}
+.gnnn,
+.gn
+{
+    margin-top: 30vh;
+    width: 20%;
+    height: 14vh;
+    margin-left: 1vw;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+    border: 1px dotted gray;
+}
+.gnnn img{
+    margin-top: -29vh;
+    width: 100%;
+    height: 25vh;
+    margin-left: 0vw;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+    border: 1px dotted gray;
+}
+.gn img
+{
+    margin-top: -29vh;
+    width: 100%;
+    height: 25vh;
+    margin-left: vw;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px dotted black;
+    background-color: rgb(244, 244, 244);
+    border: 1px dotted gray;
+}
+.gn h3{
+    margin-top: -8vh;
+}
+.pnn .text-overlay .text-container,
+.gn .text-overlay .text-container {
+    display: none;
+    
+}
+
+.container2 button {
+    background-color: hsl(0, 59%, 37%);
+    margin-top: -4vh auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 200px;
+    
+margin-top: 10vh;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .pnn,
+    .pnnn,
+    .pn,
+    .gnn,
+    .gnn,
+    .gn {
+        width: 100%;
+    }
+
+    .container2 button {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
