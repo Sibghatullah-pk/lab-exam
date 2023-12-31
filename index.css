@@ -319,6 +319,7 @@ height: 20vh;
     background-color: red;
     color: aliceblue;
    width: 97vw;
+   margin-left: -.2vw;
 }
 
 .logo img{
@@ -386,6 +387,51 @@ height: 20vh;
         margin-top: 20px;
     }
 }
+
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: #fff !important;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .logo img {
+        margin-left: 0;
+    }
+
+    .social-icons img {
+        margin-left: 0;
+    }
+
+    .useful-info {
+        text-align: center;
+    }
+
+    .datat {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .col-md-2 {
+        height: auto;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
 .data{
     margin-top: 1vh;
     width: 96vw;
@@ -453,6 +499,12 @@ table, th, td {
         margin-left: 0;  /* Adjust the margin as needed */
     }
 }
+.d-grid button{
+    background-color: red;
+    width: 20vw;
+    margin-left: ;
+    margin-top: -2VH;
+} 
 .col-md-2{
     height: 60vh;
     margin-top: -55vh;
