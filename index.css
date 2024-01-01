@@ -32,9 +32,24 @@ header{
 }   
 .PA h1{
     margin-top: 25vh;
-    color: beige;
+    color: rgb(240, 240, 240);
     text-align: center;
     margin-left: 2vw;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translateY(-100%);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: runningtext 2s linear both;
+}
+@keyframes runningtext {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(10%);
+    }
 }
 .dropdown {
     text-align: center;
@@ -434,7 +449,7 @@ height: 20vh;
 
 .footer {
     background-color: red;
-    color: aliceblue;
+  
     background-color: red;
    width: 97vw;
    margin-left: -.2vw;
@@ -459,7 +474,7 @@ height: 20vh;
     background-color: red;
     width: 20vw;
     margin-left: ;
-    margin-top: -2VH;
+    margin-top: 2VH;
 } 
 .d-grd button:hover{
     background-color: rgb(228, 202, 202);
