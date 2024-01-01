@@ -1,9 +1,11 @@
 .nav-link{
-    transition-duration: all 0.2s;
+   
     color: rgb(243, 240, 240);
 }
 .nav-link:hover{
+    transition-duration: all 0.2s;
    background-color: rgb(34, 117, 117);
+   border-radius: 30%;
 }
 header{
     background-image: url("bck-grnd.PNG");
@@ -14,7 +16,7 @@ header{
     border: none !important;
 }
 .nav2{
-    background-image: url("bck-grnd.PNG");
+    background-color: transparent;
 }
 .navbar-nav .nav-link {
     color: #fff !important;
@@ -26,7 +28,7 @@ header{
 .container{
     background-color: transparent;
     color: black;
-    width: 100%;
+    width: 98vw;
 }   
 .PA h1{
     margin-top: 25vh;
@@ -36,6 +38,7 @@ header{
 }
 .dropdown {
     text-align: center;
+    
   }
 
   .dropdown button {
@@ -43,38 +46,54 @@ header{
   }
 
   .dropdown-menu {
+    background-color: whitesmoke;
     bottom: 0;
     left: 50% !important;
     
   }
+  .dropdown-item{
+    background-color: whitesmoke;
+  }
+  .dropdown-divider{
+    background-color: whitesmoke;
+  }
+  .dropdown-item:hover{
+    background-color: rgb(156, 32, 32);
+  }
 .para{
-    height: 40vh;
+    height: 49vh;
     width: 85vw;
     margin-left: 7vw;
-    margin-top: 4vh;
+    margin-top: 8vh;
    
 }
 .para h1{
-    margin-top: 2vh;
+    margin-top: 3vh;
     text-align: center;
 }
 .para p{
-    margin-top: 5vh;
+    margin-top: 3vh;
     width: 64vw;
     margin-left: 10vw;
+    margin-bottom: 7vh;
     text-align: center;
 }
 
 .para button{
     background-color: hsl(0, 59%, 37%);
-    margin-top: 2vh;
+    margin-top: 17vh;
     width: 15vw;
     text-align: center;
+}
+.para button:hover{
+    border-radius: 25%;
+    background-color: hsl(0, 69%, 63%);
+    
 }
 .container2{
     background-color: rgb(248, 244, 244);
     width: 98vw;
-    height: 80vh;
+    height: 99vh;
 }
 .para2{
     height: 40vh;
@@ -238,6 +257,103 @@ header{
     margin-left: 1vw;
     
 }
+/* Default styles for larger screens */
+.pnn {
+    margin-top: -10vh;
+    width: 40vw;
+}
+
+/* ... (other styles) ... */
+.d-gid button{
+    margin-top: 3vh;
+}
+.d-gri button{
+    margin-top: 3vh;
+}
+.text-start {
+    margin-bottom: 3vh;
+}
+.gnn {
+    margin-top: -27vh;
+    width: 53vw;
+    margin-left: 4vw;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .pnn,
+    .pnnn,
+    .pn,
+    .gnn,
+    .gnnn,
+    .gn {
+        width: 70vw;
+        height: 30vh;
+        margin-top: 10vh;
+        margin-left: 17vw;
+    }
+
+    .pnn img,
+    .gnn img,
+    .pnnn img,
+    .gnnn img,
+    .pn img,
+    .gn img {
+        width: 70vw;
+        margin-left: 0vw;
+    }
+
+    .container2 button {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .pnn h3,
+    .gnn h3,
+    .pnn p,
+    .gnn p,
+    .pnnn h6,
+    .gnnn h6,
+    .pnnn p,
+    .gnnn p,
+    .pn h6,
+    .gn h6,
+    .pn p,
+    .gn p
+    {
+margin-left: 3vw;
+width: 50vw;
+    }
+    .container2 button {
+        font-size: 12px;
+        margin-left: 5vw;
+        height: 10vh;
+    }
+
+    .pnn h3,
+    .gnn h3 {
+        margin-left: 2vw;
+        color: #fff;
+    }
+
+    .pnn p,
+    .gnn p {
+        color: #fff;
+        width: 50vw;
+        margin-top: vh;
+        margin-left: 2vw;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .d-grid button{
+        font-size: 12px;
+        margin-left: 5vw;
+        height: 10vh;
+    }
+}
+
+
 .container2 button{
     background-color: hsl(0, 59%, 37%);
     margin-top: 2vh;
@@ -252,6 +368,7 @@ margin-top: 9vh;
 .para3 p{
     text-align: center;
 }
+
 
 .container-fluid button{
     background-color: hsl(0, 59%, 37%);
@@ -295,8 +412,8 @@ margin-top: 9vh;
     height: 100%;
 }
 .nav{
-    width: 97vw;
-    background-color: rgb(59, 58, 58);
+    width: 98vw;
+    background-color: transparent;
 height: 20vh;
 }
 .nav 
@@ -318,6 +435,7 @@ height: 20vh;
 .footer {
     background-color: red;
     color: aliceblue;
+    background-color: red;
    width: 97vw;
    margin-left: -.2vw;
 }
@@ -337,19 +455,41 @@ height: 20vh;
     margin-left: 4vw;
     height: 8vh;
 }
+.d-grd button{
+    background-color: red;
+    width: 20vw;
+    margin-left: ;
+    margin-top: -2VH;
+} 
+.d-grd button:hover{
+    background-color: rgb(228, 202, 202);
+   border-radius: 20%;
+} 
+@media screen and (max-width: 768px) {
 
+    .d-grd button{
+        width: 30vw;
+        margin-top: 6vh;
+        font-size: 12px;
+        margin-left: 3vw;
+        height: 10vh;
+    }
+}
 .logo h1 {
+    color: whitesmoke;
     margin-top: -8vh;
     margin-left: 10vw;
 }
 
 .logo h5 {
+    color: whitesmoke;
     font-size: 11px;
     margin-top: -4vh;
     margin-left: 39vw;
 }
 
 .logo p {
+    color: whitesmoke;
     font-size: 10px;
     margin-left: 4vw;
     margin-top: 4vh;
@@ -430,8 +570,25 @@ height: 20vh;
         margin-top: 0;
         margin-left: 0;
     }
+    .card ul button{
+        margin-top: -2vh;
+    }
 }
-
+/* Adjust the styles for the button */
+.list-group-item button {
+    color: black;
+    margin-top: -10px; /* Adjust the value to move the button upward */
+    border: none; /* Remove outer borders */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    width: 100%; /* Make the button span the full width of its container */
+  }
+  
+  /* Optional: Add hover effect */
+  .list-group-item button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
 .data{
     margin-top: 1vh;
     width: 96vw;
@@ -470,13 +627,23 @@ height: 20vh;
     text-align: left;
 }
 
-@media (max-width: 767px) {
-    .table, th, td {
-        font-size: 14px;
-        width: 100%;
-        margin-left: 0;  /* Adjust the margin as needed */
+@media (max-width: 760px) {
+    .table, th, td ,tbody,thead {
+        font-size: 12px;
+        width: 20vw;
+        margin-left: -24vw;  /* Adjust the margin as needed */
     }
 }
+.card button:hover{
+    background-color: rgb(215, 130, 130);
+    border-radius: 20%;
+}
+@media (max-width: 700px) {
+    .list-group #a{
+        margin-top: -35vh;
+    }
+} 
+
 table {
     border: 1px solid white;
     border-collapse: collapse;
@@ -492,18 +659,16 @@ table, th, td {
     text-align: left;
 }
 
-@media (max-width: 767px) {
-    .table, th, td {
-        font-size: 14px;
-        width: 100%;
-        margin-left: 0;  /* Adjust the margin as needed */
-    }
-}
+
 .d-grid button{
     background-color: red;
     width: 20vw;
     margin-left: ;
     margin-top: -2VH;
+} 
+.d-grid button:hover{
+    background-color: rgb(215, 130, 130);
+    border-radius: 20%;
 } 
 .col-md-2{
     height: 60vh;
@@ -517,12 +682,13 @@ table, th, td {
 }
 .USEFULL{
     width: 20vw;
+    color: whitesmoke;
     background-color: gray;
     margin-left: 10vw;
     color: rgb(20, 19, 19);
 }
-.USEFULL a{
-    color: wheat;
+.USEFULL a,h2{
+    color: whitesmoke;
 }
 .USEFULL a:hover{
     color: rgb(48, 13, 135);
@@ -542,6 +708,7 @@ table, th, td {
     height: 14vh;
     margin-left: -1vw;
     width: 98vw;
+    
 }
 
 .social-icons img {
@@ -554,4 +721,43 @@ table, th, td {
     .social-icons img {
         width: 20px;
         height: 20px;
+    }
+}
+    @media (max-width: 767px) {
+    .logo img{
+        margin-top: 3vh;
+        margin-left: -86vw;
+    }
+    .logo h1{
+        margin-left: -30vw;
+    }
+    
+    .logo p{
+      width: 50vw;
+    }
+     .USEFULL h2{
+        margin-top: -30vh;
+        margin-left: 44vw;
+        width: 40vw;
+        background-color: transparent;
+        font-size: 20px;
+     }
+     .USEFULL ul{
+        margin-top: -1vh;
+        margin-left: 46vw;
+        width: 30vw;
+        font-size: 10px;
+        background-color: transparent;
+     }
+     .social-icons #ab img{
+        margin-top: vh;
+     }
+     .social-icons a img{
+        margin-top: -29vh;
+     }
+     
+     .footer2 p{
+        color: black;
+        margin-top: -12vh;
+     }
     }
