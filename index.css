@@ -226,6 +226,18 @@ header{
     margin-left: 44vw;
     width: 20vw;
 }
+@media only screen and (max-width: 100px) {
+    #b9 button {
+     text-align: center;
+        width: 50vw;
+        height: 19vh;
+    }
+    #b9 {
+        
+           width: 50vw;
+           height: 9vh;
+       }
+}
 .gnnn{
     margin-top: 5vh;
     margin-left: 14vw;
@@ -359,6 +371,15 @@ width: 50vw;
     }
 
 }
+#b9{
+    margin-top: 5vh;
+    margin-left: 43vw;
+   }
+#b9:hover{
+    border-radius: 30%;
+    background-color:rgb(13, 41, 219);
+  box-shadow:0 6px 6px  black;
+}
 @media screen and (max-width: 768px) {
 
     .d-grid button{
@@ -405,12 +426,57 @@ margin-top: 9vh;
 }
 .picdi{
     height: 50vh;
-    width: 80vw;
+    width: 88vw;
 }
 .picdi img{
     width: 100%;
-    margin-left: 7vw;
+    margin-left: 5vw;
     height: 100%;
+}
+.researcha{
+    text-align: center;
+    margin-top: 4%;
+    font-size: xx-large;
+}
+.researchcontenta{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: x-large;
+}
+.researchmain{
+    background-color: white;
+    width: 1000px;
+    height: 77px;
+    margin-top: 5%;
+    box-shadow: 1px 1px 1px 1px grey;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 12%;
+    padding: 5px;
+    display: flex;
+
+
+}
+.b3{
+    background-color:rgb(13, 41, 219);
+  color: white;
+  padding: 10px;
+  margin-top: 5%; 
+  width: 300px;
+  justify-content: center;
+  font-weight: bold;
+  margin-left: 39%;
+  font-size: large;
+  border-color:rgb(13, 41, 219);
+   }
+   
+
+.researchmain1-1{
+    font-weight: 300;
+}
+.researchmain1{
+    font-size: x-large;
 }
 .row{
     width: 86vw;
@@ -510,7 +576,31 @@ height: 20vh;
     margin-top: 4vh;
     width: 35vw;
 }
+.sevenschools{
+    margin-top: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    background-color: whitesmoke;
+}
+.schools{
+    margin-top: 5VH;
+    color: rgb(7, 133, 175);
+    font-size: larger;
+    text-align: center;
+    justify-content: space-evenly;
 
+}
+.buttonacademics button{
+margin-left: 40vw;
+margin-top: 4vh;
+height: 4vh;
+font-size: smaller;
+text-align: center;
+}
+.buttonacademics button:hover{
+  background-color: red;
+  border-radius: 20%;
+    }
 .useful-info {
     margin-top: 20px;
 }
@@ -571,7 +661,7 @@ height: 20vh;
     }
 
     .datat {
-        width: 100%;
+        width: 98VW;
         margin-left: 0;
     }
 
@@ -605,8 +695,8 @@ height: 20vh;
   }
   
 .data{
-    margin-top: 1vh;
-    width: 96vw;
+    margin-top: -1vh;
+    width: 98.8vw;
     height: 7vh;
     background-color: rgb(111, 92, 129);
     margin-left: -1vw;
